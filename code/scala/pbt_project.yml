@@ -2,6 +2,21 @@ name: otto.streich
 description: User fork
 version: 1
 author: jay.koepp@yahoo.com
-workflows: {}
+workflows:
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: jay.koepp@yahoo.com
+    mode: batch
+    language: scala
+    createdAt: '2022-01-05 02:22:18'
+    datasets:
+      inputs: []
+      outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Renita_Stroman:
+    name: Renita_Stroman
+    description: Really solid info
+    createdAt: '2022-01-05 02:22:19'
+    author: jay.koepp@yahoo.com
